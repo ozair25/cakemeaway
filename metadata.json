@@ -1,0 +1,6 @@
+{
+  "name": "Cake Me Away Bakery",
+  "description": "A premium luxury bakery experience in Indore, crafting cinematic celebration cakes, pastries, and artisanal desserts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
