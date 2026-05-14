@@ -1,42 +1,20 @@
-Cake Me Away Bakery
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A premium luxury bakery website and admin dashboard experience built with modern web technologies and AI-assisted development.
-Designed to deliver a cinematic dessert-brand aesthetic with real-time ordering, inventory management, and responsive customer experience.
+# Run and deploy your AI Studio app
 
-Features
-Customer Website
-Luxury cinematic hero section
-Responsive modern bakery UI
-Dynamic product menu
-Real-time order placement
-Custom cake inquiries
-Contact form integration
-Cart and checkout flow
-Mobile-friendly experience
-Premium animations and transitions
-Admin Dashboard
-Real-time order management
-Inventory and stock tracking
-Product upload/edit system
-Customer inquiry management
-Revenue analytics dashboard
-Live order statistics
-Protected admin authentication
-Responsive management panel
-Tech Stack
-React 
-Firebase 
-Tailwind CSS
-AI Studio Assisted Development
-Responsive UI Design
-Design Goal
+This contains everything you need to run your app locally.
 
-The project focuses on creating a modern luxury bakery experience inspired by premium dessert boutiques and cinematic food branding instead of generic food-ordering templates.
+View your app in AI Studio: https://ai.studio/apps/6e5015fd-298e-4375-9145-2363a8f95901
 
-Status
+## Run Locally
 
-Currently under active development and UI refinement.
+**Prerequisites:**  Node.js
 
-Preview
 
-Cake Me Away Bakery — “Cinematic desserts for life’s most unforgettable moments.”
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

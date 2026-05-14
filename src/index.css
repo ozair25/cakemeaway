@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Lobster&family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Lobster", cursive;
+  --font-condensed: "Bebas Neue", sans-serif;
+  
+  --color-bakery-cream: #EADBC8;
+  --color-bakery-chocolate: #2C1810;
+  --color-bakery-gold: #D4A373;
+  --color-bakery-beige: #DAC0A3;
+  --color-bakery-latte: #C08261;
+  --color-bakery-caramel: #BC8A5F;
+  --color-bakery-champagne: #F2EAD3;
+}
+
+@layer base {
+  body {
+    @apply bg-bakery-cream text-bakery-chocolate font-sans antialiased selection:bg-bakery-gold/20;
+  }
+}
+
+.grid-overlay {
+  @apply absolute inset-0 grid grid-cols-12 pointer-events-none opacity-[0.03];
+}
+
+.grid-line {
+  @apply border-r border-bakery-chocolate;
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20;
+}
+
+.text-reveal {
+  @apply overflow-hidden block;
+}
